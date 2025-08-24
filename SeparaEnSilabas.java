@@ -8,16 +8,16 @@ public class SeparaEnSilabas {
 
         String entrada = scanner.nextLine();
         
-        String tokens[] = entrada.split("");
+        String tokens[] = entrada.split("\s+");
 
         int enteros = 0, palabras = 0, compuestas = 0;
         
         for(String token : tokens){
             if (token.matches("\\d+")) {
                 enteros++;
-            }else if(token.matches("[a-z A-Z]")) {
+            }else if(token.matches("[a-z A-Z]+")) {
                 palabras++;
-            }else if(token.matches("[a-z A-Z 0-9]")){
+            }else if(token.matches("[a-z A-Z 0-9]+")){
                 compuestas++;
                 
             }
@@ -41,3 +41,4 @@ public class SeparaEnSilabas {
 
     }
 }
+
