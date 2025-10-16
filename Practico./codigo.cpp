@@ -1,7 +1,6 @@
-// Este es un comentario de una sola línea
+// Este es un comentario de una sola lÃ­nea
 /* 
-   Este es un comentario de múltiples líneas 
-   que también debe contarse
+   Comentario que tambiÃ©n debe contarse
 */
 
 #include <iostream>
@@ -18,7 +17,7 @@ int main() {
         contador = contador + i;       
         promedio = contador / (i + 1);
 
-        // (d) Variables y (e) Constantes numéricas
+        // (d) Variables y (e) Constantes numÃ©ricas
         if (promedio > 5.0 && i != 0) { 
             cout << "Promedio mayor que 5.0" << endl;
         } else {
@@ -26,14 +25,14 @@ int main() {
         }
     }
 
-    // (f) Operadores aritméticos adicionales
+    // (f) Operadores aritmÃ©ticos adicionales
     contador *= 2;  
     contador -= 1;
 
-    // (g) Operadores lógicos
+    // (g) Operadores lÃ³gicos
     bool resultado = (contador >= 10) || (promedio < 3.5);
 
-    // (h) Símbolos especiales: {}, (), [], ;, <<, >>
+    // (h) SÃ­mbolos especiales: {}, (), [], ;, <<, >>
     int arreglo[5] = {1, 2, 3, 4, 5};
     for (int j = 0; j < 5; j++) {
         cout << "Elemento[" << j << "] = " << arreglo[j] << endl;
@@ -41,3 +40,4 @@ int main() {
 
     return 0;
 }
+
